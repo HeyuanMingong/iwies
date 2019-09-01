@@ -1,6 +1,6 @@
 # Instance Weighted Incremental Evolution Strategies (IW-IES)
 
-This repo contains code accompaning the paper: [Zhi Wang, Chunlin Chen, and Daoyi Dong, "Instance Weighted Incremental Evolution Strategies for Reinforcement Learning in Dynamic Environments", submitted]()
+This repo contains code accompaning the paper: [Zhi Wang, Chunlin Chen, and Daoyi Dong, "Instance Weighted Incremental Evolution Strategies for Reinforcement Learning in Dynamic Environments", submitted.]()
 It contains code for running the incremental learning tasks, including 2D navigation, HalfCheetah, and Ant domains. The basic reinforcement learning algorithms are implemented using evolution strategies.
 
 ### Dependencies
