@@ -1,6 +1,6 @@
-# Instance Weighted Incremental Evolution Strategies (IWIES)
+# Instance Weighted Incremental Evolution Strategies (IW-IES)
 
-This repo contains code accompaning the paper: [Zhi Wang, Chunlin Chen, and Daoyi Dong, "Instance Weighted Incremental Evolution Strategies for Reinforcement Learning in Dynamic Environments", 2019]()
+This repo contains code accompaning the paper: [Zhi Wang, Chunlin Chen, and Daoyi Dong, "Instance Weighted Incremental Evolution Strategies for Reinforcement Learning in Dynamic Environments", submitted]()
 It contains code for running the incremental learning tasks, including 2D navigation, HalfCheetah, and Ant domains. The basic reinforcement learning algorithms are implemented using evolution strategies.
 
 ### Dependencies
@@ -15,8 +15,8 @@ This code requires the following:
 * For the Hopper/HalfCheetah/Ant Mujoco domains, the modified Mujoco enviornments are in `myrllib/envs/mujoco/*`
 
 ### Usage 
-* For example, to run the code in the 2D Navigation domain with Case I dynamic environment, just run the bash script `./demo_navigation_v1.sh`, also see the usage instructions in the script and `main.py`
-* When getting the results in .mat files, plot the results using `demo_data_process.py`. For example, the results for `./demo_navigation_v1.sh` is as follow:
+* For example, to run the code in the 2D Navigation domain with Case I dynamic environment, just run the bash script `./navigation_v1.sh`, also see the usage instructions in the script and `main.py`
+* When getting the results in .mat files, plot the results using `data_process.py`. For example, the results for `./navigation_v1.sh` is as follow:
 ![experimental results for navigation domain](https://github.com/HeyuanMingong/iwies/blob/master/exp/demo_navigation_v1.png)
 
 Also, the results for other demo scripts are shown in `exp/*`
