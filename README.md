@@ -18,16 +18,9 @@ This code requires the following:
 * For example, to run the code in the 2D Navigation domain with Case I dynamic environment, just run the bash script `./navigation_v1.sh`, also see the usage instructions in the script and `main.py`
 * When getting the results in `.npy` files, plot the results using `data_process.py`. For example, the results for `./navigation_v1.sh` and `./hopper.sh` are as follow:
 
-First Header | Second Header
+navigation_v1 | hopper
 ------------ | -------------
 ![experimental results for navigation_v1 domain](https://github.com/HeyuanMingong/iwies/blob/master/exp/navigation_v1.png) | ![experimental results for hopper domain](https://github.com/HeyuanMingong/iwies/blob/master/exp/hopper.png)
-
-
-For the navigation_v1 domain:
-![experimental results for navigation_v1 domain](https://github.com/HeyuanMingong/iwies/blob/master/exp/navigation_v1.png)
-
-For the hopper domain:
-![experimental results for hopper domain](https://github.com/HeyuanMingong/iwies/blob/master/exp/hopper.png)
 
 Also, the results for other demo scripts are shown in `exp/*`
 
