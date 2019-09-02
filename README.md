@@ -24,6 +24,9 @@ navigation_v1 | hopper
 
 Also, the results for other demo scripts are shown in `exp/*`
 
+### Remark
+All the scripts deal with one demo trial in all investigated domains. To obtain the results as shown in the paper, implement many trials with random environment changes.
+
 ### Contact 
 For safety reasons, the source code is coming soon.
 
