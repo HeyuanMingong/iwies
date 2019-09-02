@@ -15,8 +15,8 @@ This code requires the following:
 * For the Hopper/HalfCheetah/Ant Mujoco domains, the modified Mujoco enviornments are in `myrllib/envs/mujoco/*`
 
 ### Usage 
-* For example, to run the code in the 2D Navigation domain with Case I dynamic environment, just run the bash script `./navigation_v1.sh`, also see the usage instructions in the script and `main.py`
-* When getting the results in `./output/*/*.npy` files, plot the results using `data_process.py`. For example, the results for `./navigation_v1.sh` and `./hopper.sh` are as follow:
+* For example, to run the code in the 2D Navigation domain with Case I dynamic environment, just run the bash script `navigation_v1.sh`, also see the usage instructions in the script and `main.py`
+* When getting the results in `output/*/*.npy` files, plot the results using `data_process.py`. For example, the results for `navigation_v1.sh` and `hopper.sh` are as follow:
 
 navigation_v1 | hopper
 ------------ | -------------
