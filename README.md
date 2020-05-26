@@ -18,9 +18,9 @@ This code requires the following:
 * For example, to run the code in the Ant domain, just run the bash script `ant.sh`, also see the usage instructions in the script and `main.py`.
 * When getting the results in `output/*/*.npy` files, plot the results using `data_process.py`. For example, the results for `navigation_v3.sh` and `half_cheetah.sh` are as follow:
 
-navigation_v1 | hopper
+navigation_v1 | half cheetah
 ------------ | -------------
-![experimental results for navigation_v3 domain](https://github.com/HeyuanMingong/iwies/blob/master/exp/navi3_baselines.png) | ![experimental results for half cheetah domain](https://github.com/HeyuanMingong/iwies/blob/master/exp/cheetah_baselines.png)
+![experimental results for navigation_v1 domain](https://github.com/HeyuanMingong/iwies/blob/master/exp/navi1_baselines.png) | ![experimental results for half cheetah domain](https://github.com/HeyuanMingong/iwies/blob/master/exp/cheetah_baselines.png)
 
 Also, the results for other demo scripts are shown in `exp/*`
 
