@@ -20,7 +20,7 @@ This code requires the following:
 
 navigation_v1 | swimmer
 ------------ | -------------
-![experimental results for navigation_v1 domain](https://github.com/HeyuanMingong/iwies/blob/master/exp/navi1_baselines.png) | ![experimental results for half cheetah domain](https://github.com/HeyuanMingong/iwies/blob/master/exp/swimmer_baselines.png)
+![experimental results for navigation_v1 domain](https://github.com/HeyuanMingong/iwies/blob/master/exp/navi1.png) | ![experimental results for half cheetah domain](https://github.com/HeyuanMingong/iwies/blob/master/exp/swimmer.png)
 
 Also, the results for other demo scripts are shown in `exp/*`
 
