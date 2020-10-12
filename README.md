@@ -1,7 +1,7 @@
 # Instance Weighted Incremental Evolution Strategies (IW-IES)
 
-This repo contains code accompaning the paper: [Zhi Wang, Chunlin Chen, and Daoyi Dong, "Instance Weighted Incremental Evolution Strategies for Reinforcement Learning in Dynamic Environments", submitted.]()
-It contains code for running the incremental learning tasks, including 2D navigation, Swimmer, Hopper, and HalfCheetah domains. The basic reinforcement learning algorithms are implemented using natrural evolution strategies.
+This repo contains code accompanying the paper: [Zhi Wang, Chunlin Chen, and Daoyi Dong, "Instance Weighted Incremental Evolution Strategies for Reinforcement Learning in Dynamic Environments", submitted.](https://arxiv.org/abs/2010.04605)
+It contains code for running the incremental learning tasks, including 2D navigation, Swimmer, Hopper, and HalfCheetah domains. The basic reinforcement learning algorithms are implemented using natural evolution strategies.
 
 ### Dependencies
 This code requires the following:
@@ -12,7 +12,7 @@ This code requires the following:
 
 ### Data
 * For the 2D navigation domain, data is generated from `myrllib/envs/navigation.py`
-* For the Swimmer/Hopper/HalfCheetah Mujoco domains, the modified Mujoco enviornments are in `myrllib/envs/mujoco/*`
+* For the Swimmer/Hopper/HalfCheetah Mujoco domains, the modified Mujoco environments are in `myrllib/envs/mujoco/*`
 
 ### Usage 
 * For example, to run the code in the Ant domain, just run the bash script `swimmer.sh`, also see the usage instructions in the script and `main.py`.
