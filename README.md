@@ -11,8 +11,8 @@ This code requires the following:
 * MuJoCo license
 
 ### Data
-* For the 2D navigation domain, data is generated from `myrllib/envs/navigation.py`
-* For the Swimmer/Hopper/HalfCheetah Mujoco domains, the modified Mujoco environments are in `myrllib/envs/mujoco/*`
+* For the 2D navigation domain, data is generated from `envs/navigation.py`
+* For the Swimmer/Hopper/HalfCheetah Mujoco domains, the modified Mujoco environments are in `envs/mujoco/*`
 
 ### Usage 
 * For example, in Case I of the navigation domain, just run the bash script `navi_v1_iwies.sh` to get the results of iwies and its ablation methods, also see the usage instructions in the script and `main.py`; just run the bash script `navi_v1_baselines.sh` to get the results of the baselines including Robust, Hist, SO-CMA, and ES-MAML, also see the usage instructions in the script and `baselines.py`
