@@ -22,7 +22,6 @@ def ablation_study():
     rews_nov = np.load(os.path.join(r_path, 'rews_nov.npy'))
     rews_qua = np.load(os.path.join(r_path, 'rews_qua.npy'))
     rews_mix = np.load(os.path.join(r_path, 'rews_mix.npy'))
-    #rews_mix = rews_fs = rews_ca
     
     print('Average return of FS: %.2f' % rews_fs.mean())
     print('Average return of CA: %.2f' % rews_ca.mean())
@@ -48,7 +47,13 @@ def comparison_to_baselines():
     rews_hist = np.load(os.path.join(r_path, 'rews_hist.npy'))
     rews_maml = np.load(os.path.join(r_path, 'rews_maml.npy'))
     rews_mix = np.load(os.path.join(r_path, 'rews_mix.npy'))
-    #rews_so = rews_mix
+
+    print('Average return of Robust: %.2f' % rews_robust.mean())
+    print('Average return of SO-CAM: %.2f' % rews_so.mean())
+    print('Average return of Hist: %.2f' % rews_hist.mean())
+    print('Average return of ES-MAML: %.2f' % rews_maml.mean())
+    print('Average return of IW-IES: %.2f' % rews_mix.mean())
+
 
     x = range(len(rews_robust))
     plt.figure()
