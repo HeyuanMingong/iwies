@@ -21,6 +21,8 @@ This code requires the following:
 Case I | Case II | Complex Case
 ------------ | ------------- | -------------
 ![iwies results for Case I](https://github.com/HeyuanMingong/iwies/blob/master/exp/navi1_iwies_onerun.png) | ![iwies results for Case II](https://github.com/HeyuanMingong/iwies/blob/master/exp/navi2_iwies_onerun.png) | ![iwies results for Complex Case](https://github.com/HeyuanMingong/iwies/blob/master/exp/navi3_iwies_onerun.png)
+------------ | ------------- | -------------
+![baseline results for Case I](https://github.com/HeyuanMingong/iwies/blob/master/exp/navi1_baselines_onerun.png) | ![baselines results for Case II](https://github.com/HeyuanMingong/iwies/blob/master/exp/navi2_baselines_onerun.png) | ![baselines results for Complex Case](https://github.com/HeyuanMingong/iwies/blob/master/exp/navi3_baselines_onerun.png)
 
 
 navigation_v1 | swimmer
