@@ -23,6 +23,7 @@ Case I | Case II | Complex Case
 ![iwies results for Case I](https://github.com/HeyuanMingong/iwies/blob/master/exp/navi1_iwies_onerun.png) | ![iwies results for Case II](https://github.com/HeyuanMingong/iwies/blob/master/exp/navi2_iwies_onerun.png) | ![iwies results for Complex Case](https://github.com/HeyuanMingong/iwies/blob/master/exp/navi3_iwies_onerun.png)
 ![baseline results for Case I](https://github.com/HeyuanMingong/iwies/blob/master/exp/navi1_baselines_onerun.png) | ![baselines results for Case II](https://github.com/HeyuanMingong/iwies/blob/master/exp/navi2_baselines_onerun.png) | ![baselines results for Complex Case](https://github.com/HeyuanMingong/iwies/blob/master/exp/navi3_baselines_onerun.png)
 
+Note that these results are from a single run of the code. You can randomly change the environment to a new one, and record the performance of all tested methods when adapting to the new environment. In our paper, we repeat the process ten times and report the mean and standard error to demonstrate the performance for learning in stochastic dynamic environments. For example, the results for Case I of navigation domain and the swimmer domain are as follows:
 
 navigation_v1 | swimmer
 ------------ | -------------
